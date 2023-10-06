@@ -1,0 +1,107 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.toggleButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.toggleButton:hover {
+  border: 3px solid salmon;
+  cursor: pointer;
+  background-color: black;
+}
+
+.heading {
+  padding-top: 20px;
+  font-size: 70px;
+  margin-bottom: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.searchBar input {
+  width: 60%;
+  margin: 30px;
+  height: 25px;
+  font-size: large;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 3px solid white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.subText {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.subSearch {
+  margin: 30px;
+}
+
+.subSearch button {
+  margin: 5px;
+  background-color: yellow;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.subSearch button:hover {
+  cursor: pointer;
+  background-color: salmon;
+  color: white;
+}
+
+.subSearch button:focus {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+}
+.footer span {
+  padding: 5px;
+}

@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+# Developer: Subhranshu Choudhury | https://about.me/subhranshu 
+User-agent: *
+Disallow:

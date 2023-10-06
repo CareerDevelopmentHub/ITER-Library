@@ -1,0 +1,108 @@
+
+
+.bookCardHolder{
+    background-color: rgb(3, 3, 90);
+    width: 200px;
+    height: 320px;
+    margin: 10px;
+    border-radius: 23px;
+    position: relative;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bookSl{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    right: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.downloaded{
+    top: 50px;
+    background-color: greenyellow;
+}
+
+.bookName{
+    color: white;
+    background-color: salmon;
+    padding: 10px;
+    padding-right: 45px;
+    height: 70px;
+    overflow-y: hidden;
+    font-weight: bold;
+
+}
+
+
+.bookD_btn{
+    margin: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+    right: 1px;
+    left: 1px;
+}
+
+.bookD_btn button{
+    text-align: center;
+    border: none;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 5px solid salmon;
+    font-size: large;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bookD_btn button:hover{
+    background-color: salmon;
+    border-bottom: 5px solid brown;
+    color: white;
+    cursor: pointer;
+}
+
+.o_details{
+    height: 100px;
+}
+
+.sub_name{
+    background-color: brown;
+    display: block;
+    color: white;
+    font-style: normal;
+    padding: 5px;
+}
+
+.more_details{
+    margin: 5px;
+    display:block;
+    font-style: normal;
+    border-radius: 23px;
+    color: white;
+    padding: 2px;
+}
+
+.book_tags{
+    margin: 5px;
+    height: 50px;
+    padding:2px 0 10px 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.book_tags i{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
