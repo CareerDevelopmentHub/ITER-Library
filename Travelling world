@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRAVELLING with ANKIT</title>
+  <link rel="icon"
+    href="https://cdn2.iconfinder.com/data/icons/love-wedding-heart-flat-sticker-white-style/839/Wedding-Car-256.png"
+    type="image/x-icon">
+  <!-- <link rel="icon" type="image/x-icon"
+    href="https://cdn1.iconfinder.com/data/icons/transportation-1-2/24/transportation-sports-travel-car-transport-512.png"> -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400,500,700,400i,500i,700i|Google+Sans:400,500|Google+Sans+Display:400|Product+Sans:400&amp;lang=en"
+    rel="stylesheet" nonce="A3le8SOFghUxUwMJ3Q-QEA">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="/assets-products/css/index.min.css?cache=072d094" rel="stylesheet" nonce="A3le8SOFghUxUwMJ3Q-QEA" <!--
+    Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+    /* Custom styles */
+    * {}
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(to bottom left, rgb(13, 19, 22) 0%, rgb(70, 66, 66) 100%);
+    }
+
+    #row {
+      display: flex;
+      background-color: white;
+      border: 1px solid #FFFFFF;
+      border-radius: 1%;
+      height: 615px;
+    }
+
+    #box {
+      height: 530px;
+      display: inline-flex;
+      width: 8;
+      background-size: cover;
+      margin: auto;
+    }
+
+    .btn-group {
+      align-items: center;
+    }
+
+    #car {
+      height: 500px;
+      display: flex;
+      width: 490px;
+      background-repeat: no-repeat;
+
+      background-color: transparent;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      background-image: linear-gradient(to bottom left, pink 0%, red 100%);
+      transform: translate(-50%, -50%);
+      background-image: url("https://cdn4.iconfinder.com/data/icons/alter-3d-characters/512/transportation_character_builder___3d_people_person_character_car_vehicle_travel_map2x.png");
+      /* background-image: url("C:\Users\LENOVO\OneDrive\Desktop\kisspng-2018-mercedes-benz-g-class-sport-utility-vehicle-c-mercedes-benz-g-wagon-5b1dcb5d6aaaf4.3690627415286792614369.png"); */
+      /* background-image: url("https://banner2.cleanpng.com/20180610/fzh/kisspng-2018-mercedes-benz-g-class-sport-utility-vehicle-c-mercedes-benz-g-wagon-5b1dcb5d3a2411.1386610415286792612382.jpg"); */
+      /* background-image: url("https://cdn4.iconfinder.com/data/icons/car-parts-solid-elasto-font-next-2020/16/02_car-512.png"); */
+      /* background-image: url("https://media.istockphoto.com/id/1306455399/photo/generic-modern-car.jpg?s=612x612&w=0&k=20&c=MTTx6ZAQKSXXpFkdP2rbQqLHYkWawgBuvLJGBv8fc7g="); */
+      /* opacity: 50%; */
+      /* background-image: url("https://w7.pngwing.com/pngs/819/581/png-transparent-2018-mercedes-benz-g-class-sport-utility-vehicle-car-mercedes-benz-g-wagon-vehicle-rim-mercedes-benz-thumbnail.png"); */
+    }
+
+    #car:hover {
+      opacity: 0.6;
+    }
+
+    .i {
+      color: transparent;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Monoton', cursive;
+    }
+
+    h4 {
+      text-align: center;
+      position: relative;
+      color: #FFFFFF;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    card-header {
+      align-items: center;
+    }
+
+    h5 {
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    h6 {
+      font-family: 'Recursive', sans-serif;
+    }
+
+    #im {
+      align-items: center;
+    }
+  </style>
+  <style>
+    .card-body {
+      font-family: 'Cinzel', serif;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+  </style>
+
+  <style>
+    iframe.instagram-media.twitter-tweet {
+      max-width: 100% !important;
+      width: 100% !important;
+      min-width: auto !important;
+      max-height: 100% !important;
+      height: 100% !important;
+      min-height: auto !important;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Recursive:wght@700&display=swap');
+
+    .cad {
+     // background-image: linear-gradient(to top right, orange 0%, cyan 100%);
+      background-image:conic-gradient(red,orange,yellow,green,rgb(90, 250, 245),indigo,violet);
+      color: #FFFFFF;
+      height:17rem;
+      font-size:55px;
+      
+      vertical-align: baseline;
+      //text-align:bottom;
+      border-radius: 4%;
+    }
+  </style>
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+</style>
+</head>
+
+<body>
+  <div id="car">
+    <!--img
+      src="https://banner2.cleanpng.com/20180610/fzh/kisspng-2018-mercedes-benz-g-class-sport-utility-vehicle-c-mercedes-benz-g-wagon-5b1dcb5d3a2411.1386610415286792612382.jpg"
+      aria-hidden="true" class="animated-headline__icon loaded"-->
+  </div>
+  <div class="i">
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+    <div>.</div>
+  </div>
+
+
+  <div class="card">
+    <div class="cad">
+      <div class="card-body">
+        <p style="text-align:middle; font-family: 'Red Hat Display', sans-serif; text-align:center;"></br>TRAVELLING WORLD WITH ANKIT BHAI.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        <h1>INFORMATION
+        </h1>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special Treatment<span class="material-symbols-outlined">
+            festival
+          </span></h5>
+        <p class="card-text">Certainly! Here is a general guide to traveling that covers various aspects of planning and
+          enjoying your trip:</br>
+
+        <h5>1. Destination Selection:</h5></br>
+
+        Decide on your destination based on your interests, budget, and time available.
+        Consider the season, weather, and local events at your chosen destination.</br></br>
+
+        <h5>2. Budget Planning:</h5></br>
+        Create a travel budget that includes expenses for accommodation, transportation, food, activities, and
+        emergencies.
+        Research and compare prices for flights, accommodation, and activities to get the best deals.</br></br>
+
+        <h5>3. Accommodation:</h5></br>
+
+        Choose accommodations that suit your preferences, whether it's a hotel, hostel, vacation rental, or camping.
+        Read reviews and check ratings before booking.</br></br>
+
+        <h5>4. Transportation:</h5></br>
+
+        Plan your transportation method, whether it's by plane, train, bus, car, or a combination.
+        Book tickets in advance to secure lower prices and availability.</br></br>
+
+        <h5>5. Travel Insurance:</h5></br>
+
+        Consider purchasing travel insurance to cover unexpected events like cancellations, medical emergencies, or
+        lost luggage.</br></br>
+
+        <h5>6. Travel Documents:</h5></br>
+
+        Ensure your passport is up-to-date and has sufficient validity.
+        Check visa requirements for your destination and apply in advance if necessary.</br></br>
+
+        <h5>7. Packing:</h5></br>
+        Pack appropriate clothing and essentials based on the destination's climate and culture.
+        Don't forget travel adapters, chargers, and any necessary medications.</br></br>
+
+        <h5>8. Health Precautions:</h5></br>
+
+        Research health precautions such as vaccinations and travel advisories for your destination.
+        Carry a basic first-aid kit.</br></br>
+
+        <h5>9. Itinerary Planning:</h5></br>
+
+        Create a rough itinerary with a list of must-see attractions and activities.
+        Be flexible and open to spontaneous experiences.</br></br>
+
+        <h5>10. Language and Culture:</h5></br>
+        - Learn a few basic phrases in the local language.
+        - Respect the local customs and traditions of the destination.
+        </br></br>
+
+
+        <h5>11. Safety:</h5></br>
+        - Be aware of your surroundings and keep your belongings secure.
+        - Share your itinerary with someone you trust.</br></br>
+
+
+        <h5>12. Money Management:</h5></br>
+        - Inform your bank about your travel plans to avoid card issues.
+        - Carry a mix of cash and cards for emergencies.</br></br>
+
+
+        <h5>13. Communication:</h5></br>
+        - Purchase a local SIM card or an international roaming plan for your phone.
+        - Download essential travel apps, maps, and translation tools.</br></br>
+
+
+        <h5>14. Enjoying Your Trip:</h5></br>
+        - Embrace the local cuisine and try new foods.
+        - Immerse yourself in the culture and interact with locals.
+        - Take lots of photos to capture memories.</br></br>
+
+
+        <h5>15. Stay Healthy:</h5></br>
+        - Stay hydrated, get enough sleep, and take breaks to avoid travel fatigue.
+        - Follow any health guidelines or restrictions in place due to global events.</br></br>
+
+
+        <h5>16. Responsible Travel:</h5></br>
+        - Minimize your environmental impact by reducing waste and respecting wildlife.
+        - Support local businesses and artisans.</br></br>
+
+
+        <h5>17. Return Planning:</h5></br>
+        - Keep important travel documents safe.
+        - Reflect on your trip and consider how it enriched your life..</p>
+        <div class="card-header">
+          <h5 class="card-title">Remember that every trip is unique, so adapt this guide to your specific needs and
+            preferences. Happy travels!</h5>
+          <h1>THANK YOU VIEWING MY WEBSITE RADHE RADHE</h1>
+          <p>
+            <button class="btn btn-primary" id="im" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              CONTACT
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 300px;">
+                <h6>
+                  ANKIT SHARMA </br>CONTACT NO:866512377<br />EMAIL ID: ankitkumar72431@gmail.com<br />INSTAGRAM ID
+                  :shiv_bakht__</br></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (Optional, if you need JavaScript functionality) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <div id="row">
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/BrdqNqiHhgv/?utm_source=ig_embed&amp;utm_campaign=loading"
+      data-instgrm-version="14"
+      style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+      <div style="padding:16px;"> <a
+          href="https://www.instagram.com/p/BrdqNqiHhgv/?utm_source=ig_embed&amp;utm_campaign=loading"
+          style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+          target="_blank">
+          <div style=" display: flex; flex-direction: row; align-items: center;">
+            <div
+              style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+            </div>
+            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+              <div
+                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+              </div>
+              <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+              </div>
+            </div>
+          </div>
+          <div style="padding: 19% 0;"></div>
+          <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px"
+              viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+              xmlns:xlink="https://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                  <g>
+                    <path
+                      d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></div>
+          <div style="padding-top: 8px;">
+            <div
+              style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+              View this post on Instagram</div>
+          </div>
+          <div style="padding: 12.5% 0;"></div>
+          <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+            <div>
+              <div
+                style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+              </div>
+              <div
+                style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+              </div>
+              <div
+                style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+              </div>
+            </div>
+            <div style="margin-left: 8px;">
+              <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+              </div>
+              <div
+                style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+              </div>
+            </div>
+            <div style="margin-left: auto;">
+              <div
+                style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+              </div>
+              <div
+                style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+              </div>
+              <div
+                style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+              </div>
+            </div>
+          </div>
+          <div
+            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+            <div
+              style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+            </div>
+            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+            </div>
+          </div>
+        </a>
+        <p
+          style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+          <a href="https://www.instagram.com/p/BrdqNqiHhgv/?utm_source=ig_embed&amp;utm_campaign=loading"
+            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+            target="_blank">A post shared by 「Skylar Auyong」 (@not.static)</a>
+        </p>
+      </div>
+    </blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">What is your dream car?.<br><br>For me; a class G 63 AMG, white, chrome finish and black
+        rims
+        with red brake caliper 🔥🔥🔥 <a href="https://t.co/MennHf6qin">pic.twitter.com/MennHf6qin</a></p>&mdash; Spha.
+      (@SphaMeetsWorld) <a
+        href="https://twitter.com/SphaMeetsWorld/status/1234052157550272513?ref_src=twsrc%5Etfw">March 1,
+        2020</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">white G-Class 😍 <a href="https://t.co/5ew88FD6xD">pic.twitter.com/5ew88FD6xD</a></p>
+      &mdash;
+      ANKIT SHARMA (@)ANKIT <a
+        href="https://twitter.com/Auto_Porn/status/1704926010217533500?ref_src=twsrc%5Etfw">September 21, 2023</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/B7xProsJrbz/?utm_source=ig_embed&amp;utm_campaign=loading"
+      data-instgrm-version="14"
+      style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+      <div style="padding:16px;"> <a
+          href="https://www.instagram.com/p/B7xProsJrbz/?utm_source=ig_embed&amp;utm_campaign=loading"
+          style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+          target="_blank">
+          <div style=" display: flex; flex-direction: row; align-items: center;">
+            <div
+              style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+            </div>
+            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+              <div
+                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+              </div>
+              <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+              </div>
+            </div>
+          </div>
+          <div style="padding: 19% 0;"></div>
+          <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px"
+              viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+              xmlns:xlink="https://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                  <g>
+                    <path
+                      d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></div>
+          <div style="padding-top: 8px;">
+            <div
+              style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+              View this post on Instagram</div>
+          </div>
+          <div style="padding: 12.5% 0;"></div>
+          <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+            <div>
+              <div
+                style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+              </div>
+              <div
+                style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+              </div>
+              <div
+                style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+              </div>
+            </div>
+            <div style="margin-left: 8px;">
+              <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+              </div>
+              <div
+                style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+              </div>
+            </div>
+            <div style="margin-left: auto;">
+              <div
+                style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+              </div>
+              <div
+                style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+              </div>
+              <div
+                style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+              </div>
+            </div>
+          </div>
+
+          <div
+            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+            <div
+              style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+            </div>
+            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+            </div>
+          </div>
+        </a>
+        <p
+          style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+          <a href="https://www.instagram.com/p/B7xProsJrbz/?utm_source=ig_embed&amp;utm_campaign=loading"
+            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+            target="_blank">A post shared by 𝓢𝓱𝓪𝓶𝓼𝓱𝓸𝓭 𝓐𝓶𝓲𝓻𝓺𝓾𝓵𝓸𝓿 🇺🇿 (@gelendwagen_077)</a>
+        </p>
+      </div>
+    </blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+  </div>
+  <!-------------------------------------------------------------INSTAGRAM------------------------------------------------------------------->
+  <!-------------------------------------------------------------PHOTO------------------------------------------------------------------->
+  <div id="box">
+
+
+    <!-- Example split danger button -->
+    <style>
+      .slide {
+        height: 615px;
+      }
+    </style>
+
+    <div id="row">
+      <div id="carouselExampleCaptions" class="carousel slide" class="slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-a611d46/theplanetd.com/images/inspirational-travel-quotes-saint-augustine.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-a611d46/theplanetd.com/images/best-travel-quotes-jrr-tolkein.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-a611d46/theplanetd.com/images/adventure-travel-quotes-daring.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-a611d46/theplanetd.com/images/travel-quotes-like-all-great-travel.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+
+
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-a611d46/theplanetd.com/images/Best-Travel-Quotes-travel-makes-one-modest-1025x1536.jpghttps://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-a611d46/theplanetd.com/images/travel-quotes-like-all-great-travel.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-------------------------------------------------------------PHOTO------------------------------------------------------------------->
+        <!-------------------------------------------------------------YOUTUBE------------------------------------------------------------------->
+
+      </div>
+      <iframe width="620" height="615" src="https://www.youtube.com/embed/97eG_CF2_Tk?si=cmQNl7dJl4LkZ3Bx"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <!-------------------------------------------------------------YOUTUBE------------------------------------------------------------------->
+      <!-------------------------------------------------------------MAP------------------------------------------------------------------->
+
+
+      <div style="max-width:100%;overflow:hidden;color:red;width:700px;height:615px;">
+        <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+          <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?q=iter&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div><a class="googlecoder" rel="nofollow" href="https://www.bootstrapskins.com/themes"
+          id="make-map-infor-mation">premium bootstrap themes</a>
+        <style>
+          #gmap-canvas .text-marker {}
+
+          .map-generator {
+            max-width: 100%;
+            max-height: 100%;
+            background: none;
+          }
+        </style>
+      </div>
+    </div>
+    <!-------------------------------------------------------------MAP------------------------------------------------------------------->
+  </div>
+
+  <h4>&copyANKIT SHARMA<span class="material-symbols-outlined">
+      file_download_off
+    </span></h4>
+</body>
+
+</html>
